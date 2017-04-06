@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <title>D3.js 期末專題</title>
+</head>
+
+<body>
+    <h1>空氣品質指標(AQI)<br>即時視覺化呈現</h1>
+    <h3>空氣品質指數（英語：Air Quality Index, AQI）是定量描述空氣品質狀況的非線性無量綱指數<br> 其數值越大、級別和類別越高、表征顏色越深，說明空氣污染狀況越嚴重，對人體的健康危害也就越大</h2>
+        <div id="tooltip" class="hidden">
+            <p class="County">彰化縣</p>
+            <p class="SiteName">SiteName</p>
+            <p class="Status">Status</p>
+        </div>
+        <svg></svg>
+
+        <div class="buttunCollect">
+
+        </div>
+        <div class="aside">
+            <table>
+                <tr>
+                    <td class="col-1">空氣品質指標<br>(AQI)</td>
+                    <td class="col-2">0～50</td>
+                    <td class="col-2">51～100</td>
+                    <td class="col-3">101～150</td>
+                    <td class="col-3">151～200</td>
+                    <td class="col-3">201～300</td>
+                    <td class="col-3">301～500</td>
+                </tr>
+                <tr>
+                    <td>對健康影響</td>
+                    <td>良好</td>
+                    <td>普通</td>
+                    <td>對敏感族群不健康</td>
+                    <td>對所有族群不健康</td>
+                    <td>非常不健康</td>
+                    <td>危害</td>
+                </tr>
+                <tr>
+                    <td>狀態色塊</td>
+                    <td class="green">綠</td>
+                    <td class="yellow">黃</td>
+                    <td class="orange">橘</td>
+                    <td class="red">紅</td>
+                    <td class="purple">紫</td>
+                    <td class="deepRed">褐紅</td>
+                </tr>
+                <tr>
+                    <td>一般民眾<br>活動建議</td>
+                    <td>正常戶外活動</td>
+                    <td>正常戶外活動</td>
+                    <td class="text-left">1.一般民眾如果有不適，如眼痛，咳嗽或喉嚨痛等，應該考慮減少戶外活動。<br>2.學生仍可進行戶外活動，但建議減少長時間劇烈運動</td>
+                    <td class="text-left">1.一般民眾如果有不適，如眼痛，咳嗽或喉嚨痛等，應減少體力消耗，特別是減少戶外活動。
+                        <br>2.學生應避免長時間劇烈運動，進行其他戶外活動時應增加休息時間。</td>
+                    <td class="text-left">1.一般民眾應減少戶外活動。
+                        <br>2.學生應立即停止戶外活動，並將課程調整於室內進行。</td>
+                    <td class="text-left">1.一般民眾應避免戶外活動，室內應緊閉門窗，必要外出應配戴口罩等防護用具。<br>2.學生應立即停止戶外活動，並將課程調整於室內進行。
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="script/script.js"></script>
+</body>
+
+</html>

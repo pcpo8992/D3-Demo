@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: "Baloo Thambi";
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Baloo Thambi', cursive;
+    ;
+    font-size: 3em;
+    font-weight: 600;
+    color: #ffffff;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: 5px solid white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.axis line,
+.axis path {
+    stroke: gray;
+    fill: none;
+    shape-rendering: auto;
+}
+
+.axis text {
+    font-size: 12px;
+    color: bisque;
+}
+
+#tooltip {
+    position: absolute;
+    /*left: 20px; 
+     top:  100px; */
+    background: #fff;
+    width: 150px;
+    height: auto;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+.County {
+    font-weight: 700;
+    color: red;
+}
+
+.SiteName {
+    color: red;
+}
+
+.buttunCollect {
+    /*    float: left;*/
+    width: 600;
+    height: 400;
+}
+
+.green {
+    background-color: #a3dd4a;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.deepRed {
+    background-color: darkred;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 0px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-2 {
+    width: 4%;
+}
+
+.col-3 {
+    width: 15%
+}
