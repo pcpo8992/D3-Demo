@@ -1,8 +1,8 @@
 //基本定義
 
 //長寬及留白
-var width = 800;
-var height = 600;
+var width = 1200;
+var height = 800;
 var padding = {
     left: 50,
     right: 50,
