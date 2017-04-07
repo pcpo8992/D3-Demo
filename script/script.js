@@ -218,8 +218,8 @@ function render() {
             var tooltip = d3.select("#tooltip");
 
             tooltip.style({
-                "left": (+posiX + 160) + "px",
-                "top": (+posiY + 180) + "px"
+                "left": (+posiX + 250) + "px",
+                "top": (+posiY + 250) + "px"
             });
 
             tooltip.classed("hidden", false);
