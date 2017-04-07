@@ -1,8 +1,8 @@
 //基本定義
 
 //長寬及留白
-var width = 1200;
-var height = 700;
+var width = 800;
+var height = 600;
 var padding = {
     left: 50,
     right: 50,
@@ -218,8 +218,8 @@ function render() {
             var tooltip = d3.select("#tooltip");
 
             tooltip.style({
-                "left": (+posiX + 140) + "px",
-                "top": (+posiY + 160) + "px"
+                "left": (+posiX + 160) + "px",
+                "top": (+posiY + 180) + "px"
             });
 
             tooltip.classed("hidden", false);
